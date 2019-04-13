@@ -1,0 +1,156 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+header {
+  padding: 20px 0;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+.topthreeparagraphs {
+  color: forestgreen;
+  
+}
+
+.firstfave {
+  color: black;
+  font-size: 60px;
+  font-weight: 500;
+  align-items: center;
+  
+}
+
+.secondfave {
+  color: yellow;
+  font-size: 65px;
+  font-weight: 800;
+  align-items: center;
+  
+}
+
+.thirdfave {
+  color: green;
+  font-size: 75px;
+  font-weight: 400;
+  align-items: center;
+}
+
+.fourthfave {
+  color: red;
+  font-size: 50px;
+  font-weight: 600;
+  align-items: center;
+}
+
+.quotes {
+  font-weight: bold;
+  align-items: center;
+}
+
+.firstquote {
+  color: blue;
+  font-size: 22px;
+  font-family: cursive
+}
+
+.secondquote {
+  color: red;
+  font-size: 23.5px;
+  font-family: important;
+}
+
+.thirdquote {
+  color: green;
+  font-size: 25px;
+  font-family:sans-serif;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('https://abodeparkcity.com/wp-content/uploads/2016/12/snowparkcity.jpg?_ga=2.109058690.641058805.1555030636-496804058.1555030636');
+  background-size: cover;
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff;
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: black;
+  text-shadow: none;
+  background-color: forestgreen;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #fbd1d5;
+}
+
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
